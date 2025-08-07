@@ -1,3 +1,4 @@
+
 package banking;
 
 import java.util.Scanner;
@@ -129,6 +130,36 @@ public class mainapp {
                 default:
                     System.out.println("INVALID SELECTION!");
             }
+        }
+    }
+
+    private static class bankApp {
+
+        public bankApp() {
+        }
+
+        private bankApp(int newAccNo, int newPin, double d) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        private boolean verifyAccount(int accountToLogin, int pinToLogin) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        private String getAccNo() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        private String getBalance() {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        private void deposit(double depositAmount) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        }
+
+        private void withdraw(double withdrawAmount) {
+            throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         }
     }
 }
